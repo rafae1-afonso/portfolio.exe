@@ -30,14 +30,7 @@ export default function App() {
           mx-auto
         "
         />
-        <div className="group flex items-center justify-center my-15 cursor-pointer">
-          <div className="flex items-center justify-center mr-[370px] absolute">
-            <Image src="/chromelogogif.gif" alt="logo" width={70} height={0}
-              className="
-                opacity-0 group-hover:opacity-100 animate-[brightnessPing_.9s_infinite]
-              "
-            />
-          </div>
+        <div className="group flex items-center justify-center mb-20 cursor-pointer">
           <NeonButton
             styleAdd="font-(Press Start 2P) text-2xl text-center cursor-pointer text-shadow-current group-hover:text-shadow-[0_0_10px_current] group-active:duration-75 group-active:opacity-0 group-active:scale-125"
             onClick={() => {
@@ -46,13 +39,6 @@ export default function App() {
           >
             PRESS ENTER
           </NeonButton>
-          <div className="flex items-center justify-center ml-[360px] absolute">
-            <Image src="/chromelogogif.gif" alt="logo" width={70} height={0}
-              className="
-                opacity-0 group-hover:opacity-100 animate-[brightnessPing_.9s_infinite]
-              "
-            />
-          </div>
         </div>
       </div>
     </TVComponent>
